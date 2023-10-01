@@ -36,7 +36,7 @@ services:
     build:
       context: ./nginx
     ports:
-      - "80:80"
+      - "8080:80"
     networks:
       - node-network
 
